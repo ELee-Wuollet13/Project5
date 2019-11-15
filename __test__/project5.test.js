@@ -1,14 +1,15 @@
-import { calculator } from './../src/back.js';
+import { earthCalculator } from './../src/back.js';
+import { mercCalculator } from './../src/back.js';
 
 describe('calculator', () => {
   test('should take in the users age and return their age on Earth', () => {
     let age = 30;
-    let earthAge = calculator(age);
+    let earthAge = earthCalculator(age);
     expect(earthAge).toEqual(30);
   });
   test('should take in the users age and return their age on Mercury', () => {
     let age = 30;
-    let mercAge = calculator(age);
+    let mercAge = mercCalculator(age);
     expect(mercAge).toEqual(125);
   });
 
