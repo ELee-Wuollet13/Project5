@@ -1,9 +1,15 @@
-import { Main } from './../src/main.js';
+import { Calculator } from './../src/main.js';
 
-describe('Main', () => {
-
+describe('Calculator', () => {
+  test('should take in the users age and return their age on Earth', () => {
+    let age = 30;
+    let earthAge = Calculator(age);
+    expect(earthAge).toEqual(30);
+  });
   test('should take in the users age and return their age on Mercury', () => {
     let age = 30;
-    expect(age).toEqual(30);
+    let mercAge = Calculator(age);
+    expect(mercAge).toEqual();
   });
+
 });
