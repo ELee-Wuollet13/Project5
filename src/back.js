@@ -1,7 +1,7 @@
-export { Calculator }
+export { calculator }
 
 
 var calculator = function(age) {
-  const earthAge = age
-  const (mercAge = mercAge / .24)
+  return (earthAge = age)
+  return (mercAge = age / .24)
 }

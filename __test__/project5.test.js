@@ -1,14 +1,14 @@
-import { Calculator } from './../src/main.js';
+import { calculator } from './../src/back.js';
 
-describe('Calculator', () => {
+describe('calculator', () => {
   test('should take in the users age and return their age on Earth', () => {
     let age = 30;
-    let earthAge = Calculator(age);
+    let earthAge = calculator(age);
     expect(earthAge).toEqual(30);
   });
   test('should take in the users age and return their age on Mercury', () => {
     let age = 30;
-    let mercAge = Calculator(age);
+    let mercAge = calculator(age);
     expect(mercAge).toEqual();
   });
 
