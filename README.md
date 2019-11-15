@@ -19,7 +19,7 @@ This program calculates the users age on the planets of our solar system.
 | This will return the users age on Pluto | 30 | .12 |
 
 
-####etup Instructions
+####Setup Instructions
 Either follow this like: https://elee-wuollet13.github.io/Project5/ Or access the page through Github a link to my github repository and clone the program directly.
 
 ####Known Bugs
