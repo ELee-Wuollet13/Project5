@@ -28,6 +28,6 @@ describe('calculator', () => {
   test('should take in the users age and return their age on Jupitor', () => {
     let age = 30;
     let jupitorAge = jupitorCalculator(age);
-    expect(jupitorAge).toEqual("17");
+    expect(jupitorAge).toEqual("2.5");
   });
 });

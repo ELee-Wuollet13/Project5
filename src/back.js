@@ -23,5 +23,5 @@ var marsCalculator = function(age) {
 }
 var jupitorCalculator = function(age) {
   let jupitorAge = 0;
-  return (jupitorAge = age / 11.86).toFixed(0);
+  return (jupitorAge = age / 11.86).toFixed(1);
 }
