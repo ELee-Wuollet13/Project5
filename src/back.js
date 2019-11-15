@@ -25,3 +25,20 @@ var jupitorCalculator = function(age) {
   let jupitorAge = 0;
   return (jupitorAge = age / 11.86).toFixed(1);
 }
+
+var satrunCalculator = function(age) {
+  let satrunAge = 0;
+  return (satrunAge = age / 29.46).toFixed(1)
+}
+var uranusCalculator = function(age) {
+  let uranusAge = 0;
+  return (uranusAge = age / 84.01).toFixed(1);
+}
+var neptuneCalculator = function(age) {
+  let neptuneAge = 0;
+  return (neptuneAge = age / 164.8).toFixed(1);
+}
+var plutoCalculator = function(age) {
+  let plutoAge = 0;
+  return (plutoAge = age / 248.6).toFixed(2);
+}
