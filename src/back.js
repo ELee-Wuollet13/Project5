@@ -2,6 +2,7 @@ export { earthCalculator }
 export { mercCalculator }
 export { venusCalculator }
 export { marsCalculator }
+export { jupitorCalculator }
 
 
 var earthCalculator = function(age) {
@@ -19,4 +20,8 @@ var venusCalculator = function(age) {
 var marsCalculator = function(age) {
   let marsAge = 0;
   return (marsAge = age / 1.8).toFixed(0);
+}
+var jupitorCalculator = function(age) {
+  let jupitorAge = 0;
+  return (jupitorAge = age / 11.86).toFixed(0);
 }

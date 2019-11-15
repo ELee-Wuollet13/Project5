@@ -2,6 +2,7 @@ import { earthCalculator } from './../src/back.js';
 import { mercCalculator } from './../src/back.js';
 import { venusCalculator } from './../src/back.js';
 import { marsCalculator } from './../src/back.js';
+import { jupitorCalculator } from './../src/back.js';
 
 describe('calculator', () => {
   test('should take in the users age and return their age on Earth', () => {
@@ -23,5 +24,10 @@ describe('calculator', () => {
     let age = 30;
     let marsAge = marsCalculator(age);
     expect(marsAge).toEqual("17");
+  });
+  test('should take in the users age and return their age on Jupitor', () => {
+    let age = 30;
+    let jupitorAge = jupitorCalculator(age);
+    expect(jupitorAge).toEqual("17");
   });
 });
