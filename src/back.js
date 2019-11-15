@@ -13,5 +13,5 @@ var mercCalculator = function(age) {
 }
 var venusCalculator = function(age) {
   let venusAge = 0;
-  return (venusAge = age / .615)
+  return (venusAge = age / .615).toFixed(0);
 }
