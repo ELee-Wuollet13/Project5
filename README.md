@@ -8,10 +8,10 @@ This program calculates the users age on the planets of our solar system.
 #### Specs
 | Behavior | Input Example | Output Example |
 |----------|---------------|----------------|
-| This will return the users age on Mercury | 30 | 124 |
-| This will return the users age on Venus | 30 | 48 |
+| This will return the users age on Mercury | 30 | 125 |
+| This will return the users age on Venus | 30 | 49 |
 | This will return the users age on Earth | 30 | 30 |
-| This will return the users age on Mars | 30 | 15 |
+| This will return the users age on Mars | 30 | 17 |
 | This will return the users age on Jupiter | 30 | 2.5 |
 | This will return the users age on Saturn | 30 | 1 |
 | This will return the users age on Uranus | 30 | .9 |

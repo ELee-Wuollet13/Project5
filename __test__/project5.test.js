@@ -43,12 +43,12 @@ describe('calculator', () => {
   test('should take in the users age and return their age on Uranus', () => {
     let age = 30;
     let uranusAge = uranusCalculator(age);
-    expect(uranusAge).toEqual("0.4");
+    expect(uranusAge).toEqual("0.36");
   });
   test('should take in the users age and return their age on Neptune', () => {
     let age = 30;
     let neptuneAge = neptuneCalculator(age);
-    expect(neptuneAge).toEqual("0.2");
+    expect(neptuneAge).toEqual("0.18");
   });
   test('should take in the users age and return their age on Pluto', () => {
     let age = 30;
