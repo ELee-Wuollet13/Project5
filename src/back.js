@@ -3,6 +3,10 @@ export { mercCalculator }
 export { venusCalculator }
 export { marsCalculator }
 export { jupitorCalculator }
+export { saturnCalculator }
+export { uranusCalculator }
+export { neptuneCalculator }
+export { plutoCalculator }
 
 
 var earthCalculator = function(age) {
@@ -26,7 +30,7 @@ var jupitorCalculator = function(age) {
   return (jupitorAge = age / 11.86).toFixed(1);
 }
 
-var satrunCalculator = function(age) {
+var saturnCalculator = function(age) {
   let satrunAge = 0;
   return (satrunAge = age / 29.46).toFixed(1)
 }
