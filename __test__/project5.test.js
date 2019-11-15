@@ -9,7 +9,7 @@ describe('calculator', () => {
   test('should take in the users age and return their age on Mercury', () => {
     let age = 30;
     let mercAge = calculator(age);
-    expect(mercAge).toEqual();
+    expect(mercAge).toEqual(125);
   });
 
 });
