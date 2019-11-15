@@ -38,7 +38,7 @@ describe('calculator', () => {
   test('should take in the users age and return their age on Saturn', () => {
     let age = 30;
     let saturnAge = saturnCalculator(age);
-    expect(saturnAge).toEqual("1.0");
+    expect(saturnAge).toEqual("1.02");
   });
   test('should take in the users age and return their age on Uranus', () => {
     let age = 30;
