@@ -1,11 +1,11 @@
-##Galactic Age
+## Galactic Age
 Made by: Everett Lee-Wuollet
 
-####Description
+#### Description
 This program calculates the users age on the planets of our solar system.
 
 
-####Specs
+#### Specs
 | Behavior | Input Example | Output Example |
 |----------|---------------|----------------|
 | This will return the users age on Mercury | 30 | 124 |
@@ -19,13 +19,13 @@ This program calculates the users age on the planets of our solar system.
 | This will return the users age on Pluto | 30 | .12 |
 
 
-####Setup Instructions
+#### Setup Instructions
 Either follow this like: https://elee-wuollet13.github.io/Project5/ Or access the page through Github a link to my github repository and clone the program directly.
 
-####Known Bugs
+#### Known Bugs
 There are no known bugs at this time.
 
-####Support and contact details
+#### Support and contact details
 If you need help, please contact me at:
 
 everett.leewuollet@gmail.com
