@@ -1,11 +1,13 @@
 import $ from 'jquery';
-// import 'solarAge';
+import { SolarAge };
 
 $(document).ready(function() {
   $("form#intake").submit(function(event) {
-    let age = ("#age").val();
-    console.log(age);
-
     event.preventDefault()
+    let age = $("#age").val();
+    let planet = $("input:radio[name=planet]:checked").val();
+    let output = solarAge(age, planet)
+    console.log(age);
+    console.log(planet);
   })
 })
