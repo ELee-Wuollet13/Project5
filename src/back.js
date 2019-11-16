@@ -22,12 +22,12 @@ const SolarAge = function(age, planet) {
 } else if (planet === "uranus") {
   let uranusAge = 0;
   return (uranusAge = age / 84.01).toFixed(2);
-  }
+} else if (planet === "neptune") {
+  let neptuneAge = 0;
+  return (neptuneAge = age / 164.8).toFixed(2);
+}
+
 };
-              // const neptuneCalculator = function(age) {
-                //   let neptuneAge = 0;
-                //   return (neptuneAge = age / 164.8).toFixed(2);
-                // }
                 // const plutoCalculator = function(age) {
                   //   let plutoAge = 0;
                   //   return (plutoAge = age / 248.6).toFixed(2);
