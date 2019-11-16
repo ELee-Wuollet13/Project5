@@ -12,13 +12,13 @@ import { SolarAge } from "../src/back.js";
 
 describe('SolarAge', () => {
   test('should take in the users age and return their age on Earth', () => {
-    let age = 3;
+    let age = 30;
     let planet = "earth"
     let earthAge = SolarAge(age, planet);
     expect(earthAge).toEqual(30);
   });
   test('should take in the users age and return their age on Mercury', () => {
-    let age = 3;
+    let age = 30;
     let planet = "mercury"
     let mercAge = SolarAge(age, planet);
     expect(mercAge).toEqual(125);
