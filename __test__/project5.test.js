@@ -30,7 +30,7 @@ describe('SolarAge', () => {
     let age = 30;
     let planet = "jupitor";
     let jupitorAge = SolarAge(age, planet);
-    expect(jupitorAge).toEqual("2.5");
+    expect(jupitorAge).toEqual("2.53");
   });
 
 });

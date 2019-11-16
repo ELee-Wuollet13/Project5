@@ -13,13 +13,12 @@ const SolarAge = function(age, planet) {
 } else if (planet === "mars") {
   let marsAge = 0;
   return (marsAge = age / 1.8).toFixed(2)
+} else if (planet === "jupitor") {
+  let jupitorAge = 0;
+  return (jupitorAge = age / 11.86).toFixed(2);
 }
 };
 
-    // const venusCalculator = function(age) {
-      //   let venusAge = 0;
-      //   return (venusAge = age / .615).toFixed(0);
-      // }
       // const marsCalculator = function(age) {
         //   let marsAge = 0;
         //   return (marsAge = age / 1.8).toFixed(0);
