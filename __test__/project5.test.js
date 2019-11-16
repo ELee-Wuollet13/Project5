@@ -15,7 +15,7 @@ describe('SolarAge', () => {
     expect(mercAge).toEqual(125);
   });
   test('should take in the users age and return their age on Venus', () => {
-    let age = 3;
+    let age = 30;
     let planet = "venus"
     let venusAge = SolarAge(age, planet);
     expect(venusAge).toEqual("49");
