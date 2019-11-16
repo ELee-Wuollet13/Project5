@@ -39,7 +39,7 @@ describe('SolarAge', () => {
     expect(saturnAge).toEqual("1.02");
   });
   test('should take in the users age and return their age on Uranus', () => {
-    let age = 3;
+    let age = 30;
     let planet = "uranus"
     let uranusAge = SolarAge(age, planet);
     expect(uranusAge).toEqual("0.36");
