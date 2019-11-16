@@ -12,20 +12,21 @@ describe('SolarAge', () => {
     let age = 30;
     let planet = "mercury"
     let mercAge = SolarAge(age, planet);
-    expect(mercAge).toEqual(125);
+    expect(mercAge).toEqual("125.00");
   });
   test('should take in the users age and return their age on Venus', () => {
     let age = 30;
     let planet = "venus"
     let venusAge = SolarAge(age, planet);
-    expect(venusAge).toEqual("49");
+    expect(venusAge).toEqual("48.78");
+  });
+  test('should take in the users age and return their age on Mars', () => {
+    let age = 3;
+    let planet = "mars"
+    let marsAge = SolarAge(age, planet);
+    expect(marsAge).toEqual("17");
   });
 });
-//   test('should take in the users age and return their age on Mars', () => {
-  //     let age = 30;
-  //     let marsAge = marsCalculator(age);
-  //     expect(marsAge).toEqual("17");
-  //   });
   //   test('should take in the users age and return their age on Jupitor', () => {
     //     let age = 30;
     //     let jupitorAge = jupitorCalculator(age);
