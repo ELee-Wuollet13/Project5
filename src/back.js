@@ -7,30 +7,12 @@ const SolarAge = function(age, planet) {
 } else if (planet === "mercury") {
   let mercAge = 0;
   return (mercAge = age / .24)
+} else if (planet === "venus") {
+  let venusAge = 0;
+  return (venusAge = age / .615).toFixed(0);
+}
 };
-};
 
-
-
-// export { earthCalculator }
-// export { mercCalculator }
-// export { venusCalculator }
-// export { marsCalculator }
-// export { jupitorCalculator }
-// export { saturnCalculator }
-// export { uranusCalculator }
-// export { neptuneCalculator }
-// export { plutoCalculator }
-//
-//
-// const earthCalculator = function(age) {
-  //   let earthAge = 0;
-  //   return (earthAge = age)
-  // }
-  // const mercCalculator = function(age) {
-    //   let mercAge = 0;
-    //   return (mercAge = age / .24)
-    // }
     // const venusCalculator = function(age) {
       //   let venusAge = 0;
       //   return (venusAge = age / .615).toFixed(0);
