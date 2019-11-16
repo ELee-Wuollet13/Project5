@@ -16,22 +16,12 @@ const SolarAge = function(age, planet) {
 } else if (planet === "jupitor") {
   let jupitorAge = 0;
   return (jupitorAge = age / 11.86).toFixed(2);
+} else if (planet === "saturn") {
+  let satrunAge = 0;
+  return (satrunAge = age / 29.46).toFixed(2)
 }
 };
 
-      // const marsCalculator = function(age) {
-        //   let marsAge = 0;
-        //   return (marsAge = age / 1.8).toFixed(0);
-        // }
-        // const jupitorCalculator = function(age) {
-          //   let jupitorAge = 0;
-          //   return (jupitorAge = age / 11.86).toFixed(1);
-          // }
-          //
-          // const saturnCalculator = function(age) {
-            //   let satrunAge = 0;
-            //   return (satrunAge = age / 29.46).toFixed(2)
-            // }
             // const uranusCalculator = function(age) {
               //   let uranusAge = 0;
               //   return (uranusAge = age / 84.01).toFixed(2);

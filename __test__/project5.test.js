@@ -32,13 +32,14 @@ describe('SolarAge', () => {
     let jupitorAge = SolarAge(age, planet);
     expect(jupitorAge).toEqual("2.53");
   });
+  test('should take in the users age and return their age on Saturn', () => {
+    let age = 3;
+    let planet = "saturn";
+    let saturnAge = SolarAge(age, planet);
+    expect(saturnAge).toEqual("1.02");
+  });
 
 });
-    //   test('should take in the users age and return their age on Saturn', () => {
-      //     let age = 30;
-      //     let saturnAge = saturnCalculator(age);
-      //     expect(saturnAge).toEqual("1.02");
-      //   });
       //   test('should take in the users age and return their age on Uranus', () => {
         //     let age = 30;
         //     let uranusAge = uranusCalculator(age);
