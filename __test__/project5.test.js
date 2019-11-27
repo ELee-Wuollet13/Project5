@@ -5,7 +5,7 @@ describe('SolarAge', () => {
   test('should take in the users age and return their age on Earth', () => {
     let age = 30;
     let planet = "earth"
-    let earthAge = (age, planet);
+    let earthAge = new SolarAge (age, planet);
     expect(earthAge).toEqual(30);
   });
   // test('should take in the users age and return their age on Mercury', () => {
