@@ -25,34 +25,34 @@ describe('SolarAge', () => {
     let marsAge = new SolarAge(age, planet);
     expect(marsAge.localAge).toEqual("16.67");
   });
+  test('should take in the users age and return their age on Jupitor', () => {
+    let age = 3;
+    let planet = "jupitor";
+    let jupitorAge = new SolarAge(age, planet);
+    expect(jupitorAge.localAge).toEqual("2.53");
+  });
+  test('should take in the users age and return their age on Saturn', () => {
+    let age = 3;
+    let planet = "saturn";
+    let saturnAge = new SolarAge(age, planet);
+    expect(saturnAge.localAge).toEqual("1.02");
+  });
+  test('should take in the users age and return their age on Uranus', () => {
+    let age = 3;
+    let planet = "uranus"
+    let uranusAge =  new SolarAge(age, planet);
+    expect(uranusAge.localAge).toEqual("0.36");
+  });
+  test('should take in the users age and return their age on Neptune', () => {
+    let age = 3;
+    let planet = "neptune"
+    let neptuneAge =  new SolarAge(age, planet);
+    expect(neptuneAge.localAge).toEqual("0.18");
+  });
+  test('should take in the users age and return their age on Pluto', () => {
+    let age = 3;
+    let planet = "pluto"
+    let plutoAge =  new SolarAge(age, planet);
+    expect(plutoAge.localAge).toEqual("0.12");
+  });
 });
-  // test('should take in the users age and return their age on Jupitor', () => {
-  //   let age = 30;
-  //   let planet = "jupitor";
-  //   let jupitorAge = SolarAge(age, planet);
-  //   expect(jupitorAge).toEqual("2.53");
-  // });
-  // test('should take in the users age and return their age on Saturn', () => {
-  //   let age = 30;
-  //   let planet = "saturn";
-  //   let saturnAge = SolarAge(age, planet);
-  //   expect(saturnAge).toEqual("1.02");
-  // });
-  // test('should take in the users age and return their age on Uranus', () => {
-  //   let age = 30;
-  //   let planet = "uranus"
-  //   let uranusAge = SolarAge(age, planet);
-  //   expect(uranusAge).toEqual("0.36");
-  // });
-  // test('should take in the users age and return their age on Neptune', () => {
-  //   let age = 30;
-  //   let planet = "neptune"
-  //   let neptuneAge = SolarAge(age, planet);
-  //   expect(neptuneAge).toEqual("0.18");
-  // });
-  // test('should take in the users age and return their age on Pluto', () => {
-  //   let age = 30;
-  //   let planet = "pluto"
-  //   let plutoAge = SolarAge(age, planet);
-  //   expect(plutoAge).toEqual("0.12");
-  // });
