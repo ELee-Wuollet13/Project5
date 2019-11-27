@@ -12,13 +12,12 @@ class SolarAge {
       return (this.localAge = this.age);
     } else if (this.planet === "mercury") {
       return (this.localAge = this.age / .24).toFixed(2)
+    } else if (this.planet === "venus") {
+      return (this.localAge = this.age / .615).toFixed(2);
     }
   }
 }
-// else if (planet === "venus") {
-  //   let venusAge = 0;
-  //   return (venusAge = age / .615).toFixed(2);
-  // } else if (planet === "mars") {
+  // else if (planet === "mars") {
     //   let marsAge = 0;
     //   return (marsAge = age / 1.8).toFixed(2)
     // } else if (planet === "jupitor") {
