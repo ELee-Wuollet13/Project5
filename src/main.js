@@ -8,7 +8,7 @@ $(document).ready(function() {
     event.preventDefault()
     let age = $("#age").val();
     let planet = $("input:radio[name=planet]:checked").val();
-    let output = SolarAge(age, planet)
+    let output = new SolarAge(age, planet)
 
     console.log(age);
     console.log(planet);
