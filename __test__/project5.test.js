@@ -20,7 +20,7 @@ describe('SolarAge', () => {
     expect(venusAge.localAge).toEqual("48.78");
   });
   test('should take in the users age and return their age on Mars', () => {
-    let age = 3;
+    let age = 30;
     let planet = "mars"
     let marsAge = new SolarAge(age, planet);
     expect(marsAge.localAge).toEqual("16.67");
