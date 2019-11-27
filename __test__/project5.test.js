@@ -1,19 +1,18 @@
 import { SolarAge } from "../src/back.js";
 
-
 describe('SolarAge', () => {
   test('should take in the users age and return their age on Earth', () => {
     let age = 30;
     let planet = "earth"
     let earthAge = new SolarAge (age, planet);
-    expect(earthAge).toEqual({"age": 30, "localAge": 30, "planet": "earth"});
+    expect(earthAge.localAge).toEqual(30);
   });
-  // test('should take in the users age and return their age on Mercury', () => {
-  //   let age = 30;
-  //   let planet = "mercury"
-  //   let mercAge = SolarAge(age, planet);
-  //   expect(mercAge).toEqual("125.00");
-  // });
+  test('should take in the users age and return their age on Mercury', () => {
+    let age = 30;
+    let planet = "mercury"
+    let mercAge = new SolarAge(age, planet);
+    expect(mercAge.localAge).toEqual("125.00");
+  });
   // test('should take in the users age and return their age on Venus', () => {
   //   let age = 30;
   //   let planet = "venus"
