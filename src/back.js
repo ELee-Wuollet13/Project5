@@ -1,11 +1,12 @@
 export { SolarAge }
 
 class SolarAge {
- planetAge(age, planet) {
+ constructor(age, planet) {
     this.age = age;
     console.log(age);
     this.planet = planet;
     console.log(planet);
+    // this.localAge = age;
   }
   findAge() {
     if (this.planet === "earth") {
