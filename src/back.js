@@ -11,15 +11,15 @@ class SolarAge {
       console.log("working");
       return (this.localAge = this.age);
     } else if (this.planet === "mercury") {
-      return (this.localAge = this.age / .24).toFixed(2)
+      return (this.localAge = this.age / .24).toFixed(2);
     } else if (this.planet === "venus") {
       return (this.localAge = this.age / .615).toFixed(2);
+    } else if (this.planet === "mars") {
+      return (this.marsAge = this.age / 1.8).toFixed(2);
     }
   }
-}
-  // else if (planet === "mars") {
-    //   let marsAge = 0;
-    //   return (marsAge = age / 1.8).toFixed(2)
+};
+
     // } else if (planet === "jupitor") {
       //   let jupitorAge = 0;
       //   return (jupitorAge = age / 11.86).toFixed(2);

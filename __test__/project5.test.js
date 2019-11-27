@@ -19,12 +19,13 @@ describe('SolarAge', () => {
     let venusAge = new SolarAge(age, planet);
     expect(venusAge.localAge).toEqual("48.78");
   });
-  // test('should take in the users age and return their age on Mars', () => {
-  //   let age = 30;
-  //   let planet = "mars"
-  //   let marsAge = SolarAge(age, planet);
-  //   expect(marsAge).toEqual("16.67");
-  // });
+  test('should take in the users age and return their age on Mars', () => {
+    let age = 3;
+    let planet = "mars"
+    let marsAge = new SolarAge(age, planet);
+    expect(marsAge.localAge).toEqual("16.67");
+  });
+});
   // test('should take in the users age and return their age on Jupitor', () => {
   //   let age = 30;
   //   let planet = "jupitor";
@@ -55,4 +56,3 @@ describe('SolarAge', () => {
   //   let plutoAge = SolarAge(age, planet);
   //   expect(plutoAge).toEqual("0.12");
   // });
-});
