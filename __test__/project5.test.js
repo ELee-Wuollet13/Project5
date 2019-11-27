@@ -3,7 +3,7 @@ import { SolarAge } from "../src/back.js";
 
 describe('SolarAge', () => {
   test('should take in the users age and return their age on Earth', () => {
-    let age = 3;
+    let age = 30;
     let planet = "earth"
     let earthAge = new SolarAge (age, planet);
     expect(earthAge).toEqual({"age": 30, "localAge": 30, "planet": "earth"});
